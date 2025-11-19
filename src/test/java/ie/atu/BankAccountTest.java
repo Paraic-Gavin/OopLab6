@@ -1,6 +1,6 @@
 package ie.atu;
 
-import ie.atu.BankAccount;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

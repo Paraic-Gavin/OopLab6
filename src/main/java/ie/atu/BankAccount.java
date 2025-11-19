@@ -5,9 +5,11 @@ public class BankAccount {
     private String name;
     private double balance;
 
-    public BankAccountTest(String accNo, String name, double balance) {
-        if (balance <= 0) {
-            throw new IllegalArgumentException("Balance ,ust be greater than 0.");
+    public BankAccountTest(String accNo, String name, double balance)
+    {
+        if ( balance <=  0)
+        {
+            throw new IllegalArgumentException("Balance must be greater than 0.");
         }
         this.accNo = accNo;
         this.name = name;
@@ -25,7 +27,7 @@ public class BankAccount {
 
     public String getName() {
 
-        return 0;
+        return name;
     }
 
     public double getBalance() {

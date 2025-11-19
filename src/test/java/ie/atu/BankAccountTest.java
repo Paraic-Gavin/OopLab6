@@ -19,7 +19,7 @@ public class BankAccountTest {
 
     void constructorInitialisation()
     {
-        account = new BankAccount("ACC12345", "Paraic", 100);
+        account = new BankAccount("ACC12345","Paraic",100);
         assertEquals("ACC12345", account.getAccNo());
         assertEquals("Paraic", account.getAccNo());
         assertEquals(100, account.getAccNo());

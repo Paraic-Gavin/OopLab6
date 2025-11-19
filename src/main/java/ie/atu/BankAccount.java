@@ -5,7 +5,7 @@ public class BankAccount {
     private String name;
     private double balance;
 
-    public BankAccountTest(String accNo, String name, double balance)
+    public void BankAccountTest(String accNo, String name, double balance)
     {
         if ( balance <=  0)
         {
